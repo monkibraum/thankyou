@@ -14,7 +14,7 @@ function setup() {
   textSize(20);
   circles = new Group();
   
-  for(var i=0; i<20; i++)
+  for(var i=0; i<14; i++)
   {
   var circle = createSprite(random(0,width),random(0,height));
   circle.addAnimation("normal", "./img/bear1.png",  "./img/bear1.png", "./img/bear2.png", "./img/bear2.png");
